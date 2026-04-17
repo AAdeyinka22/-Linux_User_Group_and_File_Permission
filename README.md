@@ -28,3 +28,8 @@ The scenario simulates an organizational environment with two departments: **HR*
 ```bash
 sudo groupadd HR
 sudo groupadd IT
+
+---
+
+## User Creation & Password Setup
+
