@@ -104,24 +104,18 @@ cd /shared/it_docs   # ❌ permission denied
 
 ## 🔐 Permission Methods Compared
 
-### <br> Method	                                           Example	                                                                     Meaning
----
-
-### Symbolic	                                         u=rwx,g=rwx,o=	                                                          User: read/write/execute, Group: read/write/execute, Others: none
----
-
-### Numeric	                                               770	                                                                Same as above (4+2+1 for user, 4+2+1 for group, 0 for others)
+| Method   | Example              | Meaning |
+|----------|---------------------|---------|
+| Symbolic | u=rwx,g=rwx,o=      | User: read/write/execute, Group: read/write/execute, Others: none |
+| Numeric  | 770                 | Same as above (4+2+1 for user, 4+2+1 for group, 0 for others) |
 ---
 
 ## Common Numeric Values Used
 
-### Value	       Permission (Symbolic)	           Description
----
-
-640	              rw-r-----	                       User: rw, Group: r, Others: none
----
-
-750	              rwxr-x---	                       User: rwx, Group: rx, Others: none
+| Value | Permission (Symbolic) | Description |
+|-------|----------------------|-------------|
+| 640   | rw-r-----            | User: rw, Group: r, Others: none |
+| 750   | rwxr-x---            | User: rwx, Group: rx, Others: none |
 ---
 
 
