@@ -131,3 +131,15 @@ Numeric uses octal values (0–7) representing permission bits.
 
 Example: chmod 750 file
 
+---
+
+### 2. What does 640 mean?
+
+User: read + write (4+2 = 6)
+
+Group: read (4)
+
+Others: none (0)
+
+➡️ Symbolic: rw-r-----
+
