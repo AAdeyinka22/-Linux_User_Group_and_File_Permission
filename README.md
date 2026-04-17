@@ -118,4 +118,16 @@ cd /shared/it_docs   # ❌ permission denied
 | 750   | rwxr-x---            | User: rwx, Group: rx, Others: none |
 ---
 
+## ❓ Reflection Questions & Answers
+---
+
+### 1. What is the difference between symbolic and numeric methods?
+
+Symbolic uses letters (r, w, x) and targets (u, g, o).
+
+Example: chmod u=rwx,g=rx,o= file
+
+Numeric uses octal values (0–7) representing permission bits.
+
+Example: chmod 750 file
 
