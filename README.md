@@ -89,5 +89,16 @@ sudo usermod -aG IT amina   # add
 
 sudo gpasswd -d amina IT    # remove
 
+---
+
+## 7. Access Verification
+Switching to amina and testing directory access:
+
+su - amina
+
+cd /shared/hr_docs   # ✅ works
+
+cd /shared/it_docs   # ❌ permission denied
+
 
 
