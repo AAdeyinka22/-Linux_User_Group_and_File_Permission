@@ -65,5 +65,20 @@ sudo chmod 770 /shared/hr_docs
 
 sudo chmod 770 /shared/it_docs
 
+---
+
+## 5. Create Test Files
+sudo touch /shared/hr_docs/hr_file.txt
+
+sudo touch /shared/it_docs/it_file.txt
+
+---
+
+### Ownership & Permission Check:
+ls -ld /shared/*
+### drwxrwx--- 2 root HR 4096 Apr 16 03:32 /shared/hr_docs
+
+### drwxrwx--- 2 root IT 4096 Apr 16 03:32 /shared/it_docs
+
 
 
