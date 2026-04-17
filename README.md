@@ -47,4 +47,14 @@ sudo usermod -aG HR amina
 
 sudo usermod -aG IT kola
 
+---
+### Verification:
+id amina
+# uid=1001(amina) gid=1003(amina) groups=1003(amina),1001(HR)
+
+
+id kola
+# uid=1002(kola) gid=1004(kola) groups=1004(kola),1002(IT)
+
+
 
