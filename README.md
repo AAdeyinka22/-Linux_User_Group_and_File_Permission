@@ -162,3 +162,17 @@ Numeric method – It requires fewer keystrokes and no parsing of symbolic synta
 Once familiar with octal values, an admin can quickly apply complex permissions 
 without typing u=rwx,g=rwx,o= repeatedly.
 
+---
+
+### ✅ Key Takeaways
+
+Linux groups simplify permission management for teams.
+
+Secondary groups (-aG) allow users to belong to multiple departments.
+
+chmod 770 grants full access to owner and group, blocking others.
+
+Numeric permissions are more efficient for experienced administrators.
+
+Always verify access by switching users (su).
+
