@@ -31,7 +31,7 @@ sudo groupadd HR
 sudo groupadd IT
 
 ---
-## User Creation & Password Setup
+## 2. User Creation & Password Setup
 sudo useradd amina
 
 sudo useradd kola
@@ -39,5 +39,12 @@ sudo useradd kola
 sudo passwd amina
 
 sudo passwd kola
+
+---
+
+## 3. Assign Users to Groups
+sudo usermod -aG HR amina
+
+sudo usermod -aG IT kola
 
 
