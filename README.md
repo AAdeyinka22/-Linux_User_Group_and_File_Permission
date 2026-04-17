@@ -27,13 +27,17 @@ The scenario simulates an organizational environment with two departments: **HR*
 ### 1. Group Creation
 
 sudo groupadd HR
+
 sudo groupadd IT
 
 ---
 ## User Creation & Password Setup
 sudo useradd amina
+
 sudo useradd kola
+
 sudo passwd amina
+
 sudo passwd kola
 
 
