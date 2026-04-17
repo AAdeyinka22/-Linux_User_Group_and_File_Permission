@@ -80,5 +80,14 @@ ls -ld /shared/*
 
 ### drwxrwx--- 2 root IT 4096 Apr 16 03:32 /shared/it_docs
 
+---
+
+## 6. Testing & Modifying Group Membership
+### User amina was temporarily added to the IT group and then removed to test access changes.
+
+sudo usermod -aG IT amina   # add
+
+sudo gpasswd -d amina IT    # remove
+
 
 
