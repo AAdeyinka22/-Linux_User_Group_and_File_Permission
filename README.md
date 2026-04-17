@@ -56,5 +56,14 @@ id amina
 id kola
 ### uid=1002(kola) gid=1004(kola) groups=1004(kola),1002(IT)
 
+---
+
+## 4. Create Shared Directories & Set Permissions
+sudo mkdir -p /shared/hr_docs /shared/it_docs
+
+sudo chmod 770 /shared/hr_docs
+
+sudo chmod 770 /shared/it_docs
+
 
 
