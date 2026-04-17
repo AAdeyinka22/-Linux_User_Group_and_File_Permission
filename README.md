@@ -104,7 +104,7 @@ cd /shared/it_docs   # ❌ permission denied
 
 ## 🔐 Permission Methods Compared
 
-### Method	                                           Example	                                                                     Meaning
+### <br> Method	                                           Example	                                                                     Meaning
 ---
 
 ### Symbolic	                                         u=rwx,g=rwx,o=	                                                          User: read/write/execute, Group: read/write/execute, Others: none
