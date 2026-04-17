@@ -143,3 +143,22 @@ Others: none (0)
 
 ➡️ Symbolic: rw-r-----
 
+---
+
+### 3. What does 750 mean?
+
+User: read + write + execute (4+2+1 = 7)
+
+Group: read + execute (4+1 = 5)
+
+Others: none (0)
+
+➡️ Symbolic: rwxr-x---
+
+---
+
+### 4. Which method is faster for an administrator and why?
+Numeric method – It requires fewer keystrokes and no parsing of symbolic syntax. 
+Once familiar with octal values, an admin can quickly apply complex permissions 
+without typing u=rwx,g=rwx,o= repeatedly.
+
